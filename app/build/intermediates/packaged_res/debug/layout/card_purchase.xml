@@ -1,0 +1,949 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:visibility="visible">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/rounded_rect"
+        android:backgroundTint="#2B2B2B"
+        tools:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:visibility="visible">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#1D000000"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingStart="8dp"
+                android:paddingTop="4dp"
+                android:paddingEnd="8dp"
+                android:paddingBottom="4dp"
+                tools:visibility="visible">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:autoSizeMaxTextSize="48dp"
+                    android:autoSizeMinTextSize="12sp"
+                    android:autoSizeStepGranularity="2sp"
+                    android:autoSizeTextType="uniform"
+                    android:fontFamily="@font/anton"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:singleLine="true"
+                    android:text="@string/purchase_how_to"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    tools:visibility="visible" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:padding="8dp"
+                    app:srcCompat="@drawable/ic_baseline_currency"
+                    tools:visibility="visible" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@color/black"
+                tools:visibility="visible" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                tools:visibility="visible">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:autoSizeMaxTextSize="48dp"
+                    android:autoSizeMinTextSize="12sp"
+                    android:autoSizeStepGranularity="2sp"
+                    android:autoSizeTextType="uniform"
+                    android:fontFamily="@font/anton"
+                    android:gravity="start|top"
+                    android:lineSpacingExtra="6sp"
+                    android:padding="8dp"
+                    android:text="@string/purchase_intro_1"
+                    android:textColor="#E1E1E1"
+                    android:textSize="18sp"
+                    tools:visibility="visible" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                android:background="@drawable/diag_round_white"
+                android:orientation="vertical"
+                tools:visibility="visible">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    tools:visibility="visible">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:autoSizeMaxTextSize="48dp"
+                        android:autoSizeMinTextSize="12sp"
+                        android:autoSizeStepGranularity="2sp"
+                        android:autoSizeTextType="uniform"
+                        android:fontFamily="@font/anton"
+                        android:gravity="start|top"
+                        android:lineSpacingExtra="6sp"
+                        android:padding="8dp"
+                        android:text="@string/purchase_trial"
+                        android:textColor="#000000"
+                        android:textSize="24sp"
+                        tools:visibility="visible" />
+
+                    <Space
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        tools:visibility="visible" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+                        android:autoSizeMaxTextSize="48dp"
+                        android:autoSizeMinTextSize="12sp"
+                        android:autoSizeStepGranularity="2sp"
+                        android:autoSizeTextType="uniform"
+                        android:background="@drawable/diag_round_white"
+                        android:backgroundTint="#000000"
+                        android:fontFamily="@font/anton"
+                        android:gravity="center"
+                        android:lineSpacingExtra="6sp"
+                        android:padding="8dp"
+                        android:text="@string/trial_price"
+                        android:textColor="#FFFFFF"
+                        android:textSize="24sp"
+                        tools:visibility="visible" />
+                </LinearLayout>
+
+                <View
+
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:alpha="0.3"
+                    android:background="@color/black"
+                    tools:visibility="visible" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:autoSizeMaxTextSize="48dp"
+                    android:autoSizeMinTextSize="12sp"
+                    android:autoSizeStepGranularity="2sp"
+                    android:autoSizeTextType="uniform"
+                    android:fontFamily="sans-serif"
+                    android:gravity="start|top"
+                    android:lineSpacingExtra="6sp"
+                    android:padding="8dp"
+                    android:text="@string/purchase_trial_exp"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    tools:visibility="visible" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                android:background="@drawable/diag_round_white"
+                android:orientation="vertical"
+                tools:visibility="visible">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    tools:visibility="visible">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:autoSizeMaxTextSize="48dp"
+                        android:autoSizeMinTextSize="12sp"
+                        android:autoSizeStepGranularity="2sp"
+                        android:autoSizeTextType="uniform"
+                        android:fontFamily="@font/anton"
+                        android:gravity="start|top"
+                        android:lineSpacingExtra="6sp"
+                        android:padding="8dp"
+                        android:text="@string/purchase_full"
+                        android:textColor="#000000"
+                        android:textSize="24sp"
+                        tools:visibility="visible" />
+
+                    <Space
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        tools:visibility="visible" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+                        android:autoSizeMaxTextSize="48dp"
+                        android:autoSizeMinTextSize="12sp"
+                        android:autoSizeStepGranularity="2sp"
+                        android:autoSizeTextType="uniform"
+                        android:background="@drawable/diag_round_white"
+                        android:backgroundTint="#000000"
+                        android:fontFamily="@font/anton"
+                        android:gravity="center"
+                        android:lineSpacingExtra="6sp"
+                        android:padding="8dp"
+                        android:text="@string/full_price"
+                        android:textColor="#FFFFFF"
+                        android:textSize="24sp"
+                        tools:visibility="visible" />
+                </LinearLayout>
+
+                <View
+
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:alpha="0.3"
+                    android:background="@color/black"
+                    tools:visibility="visible" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:autoSizeMaxTextSize="48dp"
+                    android:autoSizeMinTextSize="12sp"
+                    android:autoSizeStepGranularity="2sp"
+                    android:autoSizeTextType="uniform"
+                    android:fontFamily="sans-serif"
+                    android:gravity="start|top"
+                    android:lineSpacingExtra="6sp"
+                    android:padding="8dp"
+                    android:text="@string/purchase_full_exp"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    tools:visibility="visible" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                android:background="@drawable/diag_round_white"
+                android:backgroundTint="@color/instaGreen"
+                android:orientation="vertical"
+                tools:visibility="visible">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    tools:visibility="visible">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:autoSizeMaxTextSize="48dp"
+                        android:autoSizeMinTextSize="12sp"
+                        android:autoSizeStepGranularity="2sp"
+                        android:autoSizeTextType="uniform"
+                        android:fontFamily="@font/anton"
+                        android:gravity="start|top"
+                        android:lineSpacingExtra="6sp"
+                        android:padding="8dp"
+                        android:text="@string/purchase_upgrade"
+                        android:textColor="#000000"
+                        android:textSize="24sp"
+                        tools:visibility="visible" />
+
+                    <Space
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        tools:visibility="visible" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="4dp"
+                        android:layout_weight="1"
+                        android:autoSizeMaxTextSize="48dp"
+                        android:autoSizeMinTextSize="12sp"
+                        android:autoSizeStepGranularity="2sp"
+                        android:autoSizeTextType="uniform"
+                        android:background="@drawable/diag_round_white"
+                        android:backgroundTint="#000000"
+                        android:fontFamily="@font/anton"
+                        android:gravity="center"
+                        android:lineSpacingExtra="6sp"
+                        android:padding="8dp"
+                        android:text="@string/trial_price"
+                        android:textColor="@color/instaOrange"
+                        android:textSize="24sp"
+                        tools:visibility="visible" />
+                </LinearLayout>
+
+                <View
+
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:alpha="0.3"
+                    android:background="@color/black"
+                    tools:visibility="visible" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:autoSizeMaxTextSize="48dp"
+                    android:autoSizeMinTextSize="12sp"
+                    android:autoSizeStepGranularity="2sp"
+                    android:autoSizeTextType="uniform"
+                    android:fontFamily="sans-serif"
+                    android:gravity="start|top"
+                    android:lineSpacingExtra="6sp"
+                    android:padding="8dp"
+                    android:text="@string/purchase_trial_trial_exp"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    tools:visibility="visible" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:autoSizeMaxTextSize="48dp"
+                    android:autoSizeMinTextSize="12sp"
+                    android:autoSizeStepGranularity="2sp"
+                    android:autoSizeTextType="uniform"
+                    android:fontFamily="@font/anton"
+                    android:gravity="center"
+                    android:lineSpacingExtra="6sp"
+                    android:padding="8dp"
+                    android:text="@string/purchase_plus"
+                    android:textColor="#1C1C1C"
+                    android:textSize="18sp"
+                    tools:visibility="visible" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                android:background="@drawable/diag_round_white"
+                android:backgroundTint="#FFFFFF"
+                android:orientation="vertical"
+                tools:visibility="visible">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:autoSizeMaxTextSize="48dp"
+                    android:autoSizeMinTextSize="12sp"
+                    android:autoSizeStepGranularity="2sp"
+                    android:autoSizeTextType="uniform"
+                    android:fontFamily="@font/anton"
+                    android:gravity="start|top"
+                    android:lineSpacingExtra="6sp"
+                    android:padding="8dp"
+                    android:text="@string/purchase_how_to_methods_accept"
+                    android:textColor="#000000"
+                    android:textSize="24sp"
+                    tools:visibility="visible" />
+
+                <View
+
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:alpha="0.3"
+                    android:background="@color/black"
+                    tools:visibility="visible" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    tools:visibility="visible">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        tools:visibility="visible">
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:autoSizeMaxTextSize="48dp"
+                            android:autoSizeMinTextSize="12sp"
+                            android:autoSizeStepGranularity="2sp"
+                            android:autoSizeTextType="uniform"
+                            android:fontFamily="sans-serif"
+                            android:gravity="start|top"
+                            android:lineSpacingExtra="6sp"
+                            android:padding="8dp"
+                            android:text="@string/purchase_how_to_methods_key"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            tools:visibility="visible" />
+
+                        <Space
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            tools:visibility="visible" />
+
+                        <TextView
+
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:alpha="0.3"
+                            android:autoSizeMaxTextSize="48dp"
+                            android:autoSizeMinTextSize="12sp"
+                            android:autoSizeStepGranularity="2sp"
+                            android:autoSizeTextType="uniform"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center"
+                            android:lineSpacingExtra="6sp"
+                            android:padding="8dp"
+                            android:text="@string/purchase_how_to_methods_copy_key"
+                            android:textColor="#000000"
+                            android:textSize="12sp"
+                            tools:visibility="visible" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="8dp"
+                        tools:visibility="visible">
+
+                        <EditText
+
+                            android:id="@+id/key_edit_text"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:ems="10"
+                            android:hint="a key..."
+                            android:inputType="textPersonName"
+                            android:textColor="#FF00F2"
+                            android:textSize="24sp"
+                            android:textStyle="bold"
+                            tools:visibility="visible" />
+
+                        <androidx.appcompat.widget.AppCompatImageView
+
+                            android:id="@+id/copy_key_button"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:tint="#1E1E1E"
+                            app:srcCompat="@drawable/ic_baseline_content_copy_24"
+                            tools:visibility="visible" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="8dp"
+                        android:background="@drawable/diag_round_white"
+                        android:backgroundTint="@color/instaOrange"
+                        android:orientation="vertical"
+                        tools:visibility="visible">
+
+                        <TextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginEnd="16dp"
+                            android:autoSizeMaxTextSize="48dp"
+                            android:autoSizeMinTextSize="12sp"
+                            android:autoSizeStepGranularity="2sp"
+                            android:autoSizeTextType="uniform"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center"
+                            android:lineSpacingExtra="6sp"
+                            android:padding="8dp"
+                            android:text="@string/purchase_how_to_methods_include1"
+                            android:textColor="#000000"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            tools:visibility="visible" />
+
+                        <View
+
+                            android:id="@+id/view5"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginEnd="8dp"
+                            android:alpha="0.3"
+                            android:background="@color/black"
+                            tools:visibility="visible" />
+
+                        <androidx.appcompat.widget.AppCompatImageView
+
+                            android:id="@+id/appCompatImageView6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="4dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginEnd="4dp"
+                            android:layout_marginBottom="8dp"
+                            app:srcCompat="@drawable/cash_how_to"
+                            tools:visibility="visible" />
+
+
+                        <TextView
+
+                            android:id="@+id/textView23"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginEnd="16dp"
+                            android:autoSizeMaxTextSize="48dp"
+                            android:autoSizeMinTextSize="12sp"
+                            android:autoSizeStepGranularity="2sp"
+                            android:autoSizeTextType="uniform"
+                            android:fontFamily="sans-serif"
+                            android:gravity="start|top"
+                            android:lineSpacingExtra="6sp"
+                            android:padding="8dp"
+                            android:text="@string/purchase_how_to_methods_include2"
+                            android:textColor="#000000"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            tools:visibility="visible" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        tools:visibility="visible">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:autoSizeMaxTextSize="48dp"
+                            android:autoSizeMinTextSize="12sp"
+                            android:autoSizeStepGranularity="2sp"
+                            android:autoSizeTextType="uniform"
+                            android:fontFamily="@font/anton"
+                            android:gravity="start|top"
+                            android:lineSpacingExtra="6sp"
+                            android:padding="8dp"
+                            android:text="@string/purchase_how_to_accept"
+                            android:textColor="#000000"
+                            android:textSize="24sp"
+                            tools:visibility="visible" />
+
+                        <TextView
+
+                            android:id="@+id/textView22"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:autoSizeMaxTextSize="48dp"
+                            android:autoSizeMinTextSize="12sp"
+                            android:autoSizeStepGranularity="2sp"
+                            android:autoSizeTextType="uniform"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center"
+                            android:lineSpacingExtra="6sp"
+                            android:padding="8dp"
+                            android:text="@string/purchase_how_to_tap"
+                            android:textColor="#000000"
+                            android:textSize="16sp"
+                            tools:visibility="visible" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            tools:visibility="visible">
+
+                            <LinearLayout
+                                android:id="@+id/venmo_view"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_margin="4dp"
+                                android:layout_weight="1"
+                                android:background="@drawable/diag_round_white"
+                                android:backgroundTint="#77A3BC"
+                                android:orientation="vertical"
+                                android:padding="4dp"
+                                tools:visibility="visible">
+
+                                <androidx.appcompat.widget.AppCompatImageView
+
+
+                                    android:layout_width="match_parent"
+                                    android:layout_height="48dp"
+                                    app:srcCompat="@drawable/ic_venmo_svgrepo_com"
+                                    tools:visibility="visible" />
+
+                                <TextView
+
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:autoSizeMaxTextSize="48dp"
+                                    android:autoSizeMinTextSize="12sp"
+                                    android:autoSizeStepGranularity="2sp"
+                                    android:autoSizeTextType="uniform"
+                                    android:fontFamily="@font/anton"
+                                    android:gravity="center"
+                                    android:lineSpacingExtra="6sp"
+                                    android:padding="4dp"
+                                    android:text="@string/purchase_how_to_methods1"
+                                    android:textColor="#000000"
+                                    android:textSize="24sp"
+                                    tools:visibility="visible" />
+
+                                <TextView
+
+                                    android:id="@+id/textView21"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:autoSizeMaxTextSize="48dp"
+                                    android:autoSizeMinTextSize="12sp"
+                                    android:autoSizeStepGranularity="2sp"
+                                    android:autoSizeTextType="uniform"
+                                    android:fontFamily="sans-serif"
+                                    android:gravity="center"
+                                    android:lineSpacingExtra="6sp"
+                                    android:padding="4dp"
+                                    android:text="@string/purchase_how_to_user2"
+                                    android:textColor="#FFFFFF"
+                                    android:textSize="18sp"
+                                    tools:visibility="visible" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/cash_app_view"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="4dp"
+                                android:layout_weight="1"
+                                android:background="@drawable/diag_round_white"
+                                android:backgroundTint="#75BF87"
+                                android:orientation="vertical"
+                                android:padding="4dp"
+                                tools:visibility="visible">
+
+                                <androidx.appcompat.widget.AppCompatImageView
+
+
+                                    android:layout_width="match_parent"
+                                    android:layout_height="48dp"
+                                    app:srcCompat="@drawable/ic_square_cash_app_logo"
+                                    tools:visibility="visible" />
+
+                                <TextView
+
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:autoSizeMaxTextSize="48dp"
+                                    android:autoSizeMinTextSize="12sp"
+                                    android:autoSizeStepGranularity="2sp"
+                                    android:autoSizeTextType="uniform"
+                                    android:fontFamily="@font/anton"
+                                    android:gravity="center"
+                                    android:lineSpacingExtra="6sp"
+                                    android:padding="4dp"
+                                    android:text="@string/purchase_how_to_methods2"
+                                    android:textColor="#000000"
+                                    android:textSize="24sp"
+                                    tools:visibility="visible" />
+
+                                <TextView
+
+                                    android:id="@+id/textView20"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:autoSizeMaxTextSize="48dp"
+                                    android:autoSizeMinTextSize="12sp"
+                                    android:autoSizeStepGranularity="2sp"
+                                    android:autoSizeTextType="uniform"
+                                    android:fontFamily="sans-serif"
+                                    android:gravity="center"
+                                    android:lineSpacingExtra="6sp"
+                                    android:padding="4dp"
+                                    android:text="@string/purchase_how_to_user1"
+                                    android:textColor="#FFFFFF"
+                                    android:textSize="18sp"
+                                    tools:visibility="visible" />
+
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <TextView
+
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:autoSizeMaxTextSize="48dp"
+                        android:autoSizeMinTextSize="12sp"
+                        android:autoSizeStepGranularity="2sp"
+                        android:autoSizeTextType="uniform"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:lineSpacingExtra="6sp"
+                        android:padding="8dp"
+                        android:text="@string/purchase_help"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        tools:visibility="visible" />
+
+                    <LinearLayout
+                        android:id="@+id/contact_us_purchase"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:background="@drawable/diag_round_white"
+                        android:backgroundTint="#AA55FF"
+                        android:gravity="center"
+                        android:padding="4dp"
+                        tools:visibility="visible">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            tools:visibility="visible">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:orientation="horizontal"
+                                tools:visibility="visible">
+
+                                <androidx.appcompat.widget.AppCompatImageView
+
+
+                                    android:layout_width="48dp"
+                                    android:layout_height="match_parent"
+                                    android:tint="#000000"
+                                    app:srcCompat="@drawable/ic_baseline_support_agent_24"
+                                    tools:visibility="visible" />
+
+                                <TextView
+
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:autoSizeMaxTextSize="48dp"
+                                    android:autoSizeMinTextSize="12sp"
+                                    android:autoSizeStepGranularity="2sp"
+                                    android:autoSizeTextType="uniform"
+                                    android:fontFamily="@font/anton"
+                                    android:gravity="center"
+                                    android:lineSpacingExtra="6sp"
+                                    android:padding="4dp"
+                                    android:text="@string/contact_us"
+                                    android:textColor="#000000"
+                                    android:textSize="24sp"
+                                    tools:visibility="visible" />
+
+                            </LinearLayout>
+
+                            <View
+
+                                android:id="@+id/view2"
+                                android:layout_width="match_parent"
+                                android:layout_height="2dp"
+                                android:layout_marginStart="8dp"
+                                android:layout_marginEnd="8dp"
+                                android:alpha="0.3"
+                                android:background="@color/black"
+                                tools:visibility="visible" />
+
+                            <TextView
+
+                                android:id="@+id/textView"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:autoSizeMaxTextSize="48dp"
+                                android:autoSizeMinTextSize="12sp"
+                                android:autoSizeStepGranularity="2sp"
+                                android:autoSizeTextType="uniform"
+                                android:fontFamily="sans-serif"
+                                android:gravity="center"
+                                android:lineSpacingExtra="6sp"
+                                android:padding="4dp"
+                                android:text="@string/email"
+                                android:textColor="#000000"
+                                android:textSize="12sp"
+                                tools:visibility="visible" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                android:background="@drawable/diag_round_white"
+                android:backgroundTint="@color/instaGreen"
+                android:orientation="vertical"
+                tools:visibility="visible">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    tools:visibility="visible">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:autoSizeMaxTextSize="48dp"
+                        android:autoSizeMinTextSize="12sp"
+                        android:autoSizeStepGranularity="2sp"
+                        android:autoSizeTextType="uniform"
+                        android:fontFamily="@font/anton"
+                        android:gravity="start|top"
+                        android:lineSpacingExtra="6sp"
+                        android:padding="8dp"
+                        android:text="@string/purchase_refund_policy"
+                        android:textColor="#FFFFFF"
+                        android:textSize="24sp"
+                        tools:visibility="visible" />
+
+                </LinearLayout>
+
+                <View
+
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:alpha="0.3"
+                    android:background="@color/black"
+                    tools:visibility="visible" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:autoSizeMaxTextSize="48dp"
+                    android:autoSizeMinTextSize="12sp"
+                    android:autoSizeStepGranularity="2sp"
+                    android:autoSizeTextType="uniform"
+                    android:fontFamily="sans-serif"
+                    android:gravity="start|top"
+                    android:lineSpacingExtra="6sp"
+                    android:padding="8dp"
+                    android:text="@string/purchase_refund_policy_discretion"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    tools:visibility="visible" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:autoSizeMaxTextSize="48dp"
+                    android:autoSizeMinTextSize="12sp"
+                    android:autoSizeStepGranularity="2sp"
+                    android:autoSizeTextType="uniform"
+                    android:fontFamily="sans-serif"
+                    android:gravity="start|top"
+                    android:lineSpacingExtra="6sp"
+                    android:padding="8dp"
+                    android:text="@string/purchase_refund_policy_exp_trial"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    tools:visibility="visible" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

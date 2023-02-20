@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/default_dot.xml" value="0.161" />
+        <entry key="app/src/main/res/drawable/diag_round_white.xml" value="0.1545" />
+        <entry key="app/src/main/res/drawable/ic_c.xml" value="0.1545" />
+        <entry key="app/src/main/res/drawable/logo.xml" value="0.1545" />
+        <entry key="app/src/main/res/drawable/rounded_rect.xml" value="0.1545" />
+        <entry key="app/src/main/res/drawable/selected_card.xml" value="0.161" />
+        <entry key="app/src/main/res/drawable/selected_dot.xml" value="0.161" />
+        <entry key="app/src/main/res/drawable/tab_selector.xml" value="0.161" />
+        <entry key="app/src/main/res/drawable/thumb_up.xml" value="0.1545" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/card1.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/card2.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/card3.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/card4.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/card5.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/card_end.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/card_game.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/card_install.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/card_meta.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/card_previews.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/card_purchase.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/card_reqs.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/card_what_is.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/cardd.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/item_slider_view.xml" value="0.35625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
