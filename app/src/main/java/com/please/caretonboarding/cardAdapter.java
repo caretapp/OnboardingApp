@@ -9,6 +9,7 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 import android.net.Uri;
+import android.os.Build;
 import android.provider.Settings;
 import android.view.View;
 import android.view.ViewGroup;
@@ -23,12 +24,14 @@ import com.smarteist.autoimageslider.IndicatorView.animation.type.IndicatorAnima
 import com.smarteist.autoimageslider.SliderAnimations;
 import com.smarteist.autoimageslider.SliderView;
 
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 import java.util.Locale;
 
 public class cardAdapter extends PagerAdapter {
 	private Context context;
 	private final View[] viewList;
-	private String key = "";
+	private String key = "error";
 
 	public cardAdapter(Context c, View[] v) {
 		context = c;
@@ -56,7 +59,27 @@ public class cardAdapter extends PagerAdapter {
 				break;
 			case 6:
 				EditText keyText = viewList[position].findViewById(R.id.key_edit_text);
-				key = Settings.Secure.getString(context.getContentResolver(), Settings.Secure.ANDROID_ID);
+				StringBuilder cpu = new StringBuilder();
+				final String[][] supportedABIS = new String[][]{Build.SUPPORTED_ABIS};
+				for ( String[] s : supportedABIS ) {
+					for ( String z : s ) {
+						cpu.append(z);
+					}
+				}
+				String tmpKey = ""+ cpu + Build.BOARD + Build.BRAND + Build.DEVICE + Build.DISPLAY + Build.HOST
+						+ Build.ID + Build.MANUFACTURER + Build.MODEL + Build.PRODUCT + Build.TAGS + Build.TYPE;
+				try {
+					MessageDigest digest = java.security.MessageDigest.getInstance("MD5");
+					digest.update(tmpKey.getBytes());
+					byte[] messageDigest = digest.digest();
+					StringBuilder hexString = new StringBuilder();
+					for (byte b : messageDigest) hexString.append(Integer.toHexString(0xFF & b));
+					key = hexString.toString();
+				} catch (NoSuchAlgorithmException e) {
+					e.printStackTrace();
+					key = "error";
+				}
+
 				keyText.setText(key);
 				AppCompatImageView copyKeyButton = viewList[position].findViewById(R.id.copy_key_button);
 				copyKeyButton.setOnClickListener(v -> {
