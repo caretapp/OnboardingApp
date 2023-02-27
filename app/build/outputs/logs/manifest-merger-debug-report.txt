@@ -6,7 +6,6 @@ INJECTED from /home/dev/Documents/CaretOnBoarding/app/src/main/AndroidManifest.x
 INJECTED from /home/dev/Documents/CaretOnBoarding/app/src/main/AndroidManifest.xml:2:1-26:12
 MERGED from [com.google.android.material:material:1.7.0] /home/dev/.gradle/caches/transforms-3/d97567f431aac40cb798b23326a4a681/transformed/material-1.7.0/AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/dev/.gradle/caches/transforms-3/f06aebf0b0c854b48adfbf120800f602/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
-MERGED from [com.github.GrenderG:Toasty:1.5.2] /home/dev/.gradle/caches/transforms-3/2b87413c1098a24f3622baaf7d01ee83/transformed/Toasty-1.5.2/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.5.1] /home/dev/.gradle/caches/transforms-3/bf2d94446eb5ac99986dcca046c70dca/transformed/appcompat-resources-1.5.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.appcompat:appcompat:1.5.1] /home/dev/.gradle/caches/transforms-3/f4cc199f6c8324cb1401d4db44774d12/transformed/appcompat-1.5.1/AndroidManifest.xml:17:1-22:12
 MERGED from [com.github.smarteist:autoimageslider:1.4.0] /home/dev/.gradle/caches/transforms-3/1582c590a943ea4f234d40637190c0ba/transformed/autoimageslider-1.4.0/AndroidManifest.xml:2:1-17:12
@@ -125,8 +124,6 @@ MERGED from [com.google.android.material:material:1.7.0] /home/dev/.gradle/cache
 MERGED from [com.google.android.material:material:1.7.0] /home/dev/.gradle/caches/transforms-3/d97567f431aac40cb798b23326a4a681/transformed/material-1.7.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/dev/.gradle/caches/transforms-3/f06aebf0b0c854b48adfbf120800f602/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/dev/.gradle/caches/transforms-3/f06aebf0b0c854b48adfbf120800f602/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.GrenderG:Toasty:1.5.2] /home/dev/.gradle/caches/transforms-3/2b87413c1098a24f3622baaf7d01ee83/transformed/Toasty-1.5.2/AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.GrenderG:Toasty:1.5.2] /home/dev/.gradle/caches/transforms-3/2b87413c1098a24f3622baaf7d01ee83/transformed/Toasty-1.5.2/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.appcompat:appcompat-resources:1.5.1] /home/dev/.gradle/caches/transforms-3/bf2d94446eb5ac99986dcca046c70dca/transformed/appcompat-resources-1.5.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat-resources:1.5.1] /home/dev/.gradle/caches/transforms-3/bf2d94446eb5ac99986dcca046c70dca/transformed/appcompat-resources-1.5.1/AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.5.1] /home/dev/.gradle/caches/transforms-3/f4cc199f6c8324cb1401d4db44774d12/transformed/appcompat-1.5.1/AndroidManifest.xml:20:5-44

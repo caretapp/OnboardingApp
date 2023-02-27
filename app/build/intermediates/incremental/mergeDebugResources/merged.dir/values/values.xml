@@ -644,7 +644,6 @@
     <color name="cardview_shadow_end_color">#03000000</color>
     <color name="cardview_shadow_start_color">#37000000</color>
     <color name="dark_grey">#333333</color>
-    <color name="defaultTextColor">#FFFFFF</color>
     <color name="design_bottom_navigation_shadow_color">#14000000</color>
     <color name="design_dark_default_color_background">#121212</color>
     <color name="design_dark_default_color_error">#CF6679</color>
@@ -684,14 +683,13 @@
     <color name="dim_foreground_disabled_material_light">#80323232</color>
     <color name="dim_foreground_material_dark">#ffbebebe</color>
     <color name="dim_foreground_material_light">#ff323232</color>
-    <color name="errorColor">#D50000</color>
     <color name="error_color_material_dark">#ff7043</color>
     <color name="error_color_material_light">#ff5722</color>
     <color name="foreground_material_dark">@android:color/white</color>
     <color name="foreground_material_light">@android:color/black</color>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
     <color name="highlighted_text_material_light">#66009688</color>
-    <color name="infoColor">#3F51B5</color>
+    <color name="ic_launcher_background">#FDFDFD</color>
     <color name="instaGreen">#43b02a</color>
     <color name="instaOrange">#ff8200</color>
     <color name="m3_ref_palette_black">#ff000000</color>
@@ -850,7 +848,6 @@
     <color name="mtrl_textinput_filled_box_default_background_color">#0A000000</color>
     <color name="mtrl_textinput_focused_box_stroke_color">#00000000</color>
     <color name="mtrl_textinput_hovered_box_stroke_color">#DE000000</color>
-    <color name="normalColor">#353A3E</color>
     <color name="notification_action_color_filter">#ffffffff</color>
     <color name="notification_icon_bg_color">#ff9e9e9e</color>
     <color name="optional">#33BA84</color>
@@ -874,7 +871,6 @@
     <color name="secondary_text_disabled_material_light">#24000000</color>
     <color name="store_item_1">#FFAA00</color>
     <color name="store_item_2">#E39700</color>
-    <color name="successColor">#388E3C</color>
     <color name="switch_thumb_disabled_material_dark">#ff616161</color>
     <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
@@ -887,7 +883,6 @@
     <color name="tooltip_background_dark">#e6616161</color>
     <color name="tooltip_background_light">#e6FFFFFF</color>
     <color name="translucent">#00FFFFFF</color>
-    <color name="warningColor">#FFA900</color>
     <color name="white">#FFFFFFFF</color>
     <color name="yellow_100">#FFEA5C</color>
     <dimen name="abc_action_bar_content_inset_material">16dp</dimen>
@@ -1747,14 +1742,16 @@
     <string name="clear_text_end_icon_content_description">Clear text</string>
     <string name="contact_us">Contact Us</string>
     <string name="email">app.caret@gmail.com</string>
-    <string name="end_exp">Thank you all for your interest &amp; support with Caret!\n\nFeel free to scroll back and uninstall this app! It is not required to have for Caret.\n\nIf you have any questions, please reach out to us via email.\n\nDrive safe.</string>
+    <string name="end_exp1">Are you ready to become a more productive shopper?</string>
+    <string name="end_exp2">Feel free to scroll back. Please uninstall this app when you are finished! It is not required and is detectable by other apps.\n\nIf you have any questions, please reach out to us via email.</string>
+    <string name="end_exp3">Drive safe!</string>
     <string name="end_the_end">Let\'s GO!</string>
     <string description="Screen reader announcement for when a checkbox is on error. [CHAR LIMIT=NONE]" name="error_a11y_label">
     Error: invalid
   </string>
     <string name="error_icon_content_description">Error</string>
-    <string name="exp_of_app1">aret is a unique batch grabber for Instacart. We know what you\'re thinking… and that is a…</string>
-    <string name="exp_of_app2">Blind assumption of those who don\'t merely know the rules of the game. 😂</string>
+    <string name="exp_of_app1">aret is a unique batch grabber for Instacart. We know what you\'re thinking… that is a…</string>
+    <string name="exp_of_app2">Blind assumption of those who don\'t merely know the rules of the game. 🤡</string>
     <string name="exp_of_app3">Yes! By using automation, Caret will persistently scour for batches that align to a shopper\'s preferences faster than humanly possible.</string>
     <string name="exp_of_app4">Indeed, Caret does offer an amazing amount criteria to customize and filter batches. As well as features like bring Instacart to the screen, alerts, a batch log, and so much more.</string>
     <string name="exp_of_app5">But Caret - is NOT:</string>
@@ -1812,10 +1809,15 @@
     <string name="material_timepicker_text_input_mode_description">Switch to text input mode for the time input.</string>
     <string name="meta">Caret Meta</string>
     <string name="meta_privacy">Your business is not our business!</string>
-    <string name="meta_privacy_exp1">Caret is not freeware, one with ads, micro-transactions, or other gimmicks. Instead, Caret respects the data &amp; privacy of it\'s customers. Caret does require users to authenticate which uses the internet. After that, no network calls are made.</string>
-    <string name="meta_privacy_exp2">Don\'t take our word for it. Feel free to test this yourself before using Caret with Instacart! Just open the App Info > Mobile &amp; Wifi Usage. Caret uses mere kilobytes of data only at times of starting the app. Other \"free\" apps send megabytes of data frequently.</string>
+    <string name="meta_privacy_exp1">Caret is not freeware, one with ads, micro-transactions, or other gimmicks. A one-time purchase of the full release is for the lifetime of the device.</string>
+    <string name="meta_privacy_exp2">Caret respects the data &amp; privacy of it\'s customers. Caret does require users to authenticate which uses the internet. After that, no network calls are made.</string>
+    <string name="meta_privacy_exp3">Don\'t take our word for it. Feel free to test this yourself before using Caret with Instacart!</string>
+    <string name="meta_privacy_exp4">App Info > Mobile &amp; Wifi Usage.</string>
+    <string name="meta_privacy_exp5">Caret uses mere kilobytes of data only at times of starting the app. Other \"free\" apps send megabytes of data frequently.</string>
     <string name="meta_undetectable">Caret is discrete</string>
-    <string name="meta_undetectable_exp">Rest assured no one else will know you use Caret! Because every single APK of Caret is customized at a low-level; making it indistinguishable. \"IAMs\" are what Android apps use to discover signatures of other apps. Where Caret does not have any constant signatures. Additionally, Caret does not make any network requests with Instacart and it\'s actions are randomized. As far as detection, Caret would be considered a text editor to other apps.</string>
+    <string name="meta_undetectable_exp1">Rest assured no one else will know you use Caret!</string>
+    <string name="meta_undetectable_exp2">Every single APK of Caret is customized at a low-level; making it indistinguishable. \"IAMs\" are what Android apps use to discover signatures of other apps. Where Caret does not have any constant signatures.</string>
+    <string name="meta_undetectable_exp3">Caret does not make any network requests with Instacart and it\'s actions are randomized. As far as detection, Caret would be considered a text editor to other apps.</string>
     <string description="Content description for new notification (no number count) [CHAR_LIMIT=NONE]" name="mtrl_badge_numberless_content_description">New notification</string>
     <string name="mtrl_checkbox_button_icon_path_checked" translatable="false">M14,18.2 11.4,15.6 10,17 14,21 22,13 20.6,11.6z</string>
     <string name="mtrl_checkbox_button_icon_path_group_name" translatable="false">icon</string>
@@ -1956,7 +1958,6 @@
     <string name="requirements">Requirements</string>
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="toast_message">Toast message</string>
     <string name="trial_price">$10</string>
     <string name="what_is_it">What is Caret?</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
@@ -5976,17 +5977,17 @@
         <item name="windowNoTitle">true</item>
     </style>
     <style name="Theme.AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
-        <!-- Primary brand color. -->
+        
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
         <item name="colorOnPrimary">@color/black</item>
-        <!-- Secondary brand color. -->
+        
         <item name="colorSecondary">@color/teal_200</item>
         <item name="colorSecondaryVariant">@color/teal_700</item>
         <item name="colorOnSecondary">@color/black</item>
-        <!-- Status bar color. -->
+        
         <item name="android:statusBarColor" ns1:targetApi="l">@color/instaGreen</item>
-        <!-- Customize your theme here. -->
+        
     </style>
     <style name="Theme.Design" parent="Theme.AppCompat">
   </style>

@@ -1322,7 +1322,6 @@ int color cardview_light_background 0x7f06002e
 int color cardview_shadow_end_color 0x7f06002f
 int color cardview_shadow_start_color 0x7f060030
 int color dark_grey 0x7f060031
-int color defaultTextColor 0x7f060032
 int color design_bottom_navigation_shadow_color 0x7f060033
 int color design_box_stroke_color 0x7f060034
 int color design_dark_default_color_background 0x7f060035
@@ -1365,14 +1364,13 @@ int color dim_foreground_disabled_material_dark 0x7f060059
 int color dim_foreground_disabled_material_light 0x7f06005a
 int color dim_foreground_material_dark 0x7f06005b
 int color dim_foreground_material_light 0x7f06005c
-int color errorColor 0x7f06005d
 int color error_color_material_dark 0x7f06005e
 int color error_color_material_light 0x7f06005f
 int color foreground_material_dark 0x7f060060
 int color foreground_material_light 0x7f060061
 int color highlighted_text_material_dark 0x7f060062
 int color highlighted_text_material_light 0x7f060063
-int color infoColor 0x7f060064
+int color ic_launcher_background 0x7f060277
 int color instaGreen 0x7f060065
 int color instaOrange 0x7f060066
 int color m3_appbar_overlay_color 0x7f060067
@@ -1861,7 +1859,6 @@ int color mtrl_textinput_disabled_color 0x7f060249
 int color mtrl_textinput_filled_box_default_background_color 0x7f06024a
 int color mtrl_textinput_focused_box_stroke_color 0x7f06024b
 int color mtrl_textinput_hovered_box_stroke_color 0x7f06024c
-int color normalColor 0x7f06024d
 int color notification_action_color_filter 0x7f06024e
 int color notification_icon_bg_color 0x7f06024f
 int color optional 0x7f060250
@@ -1885,7 +1882,6 @@ int color secondary_text_disabled_material_dark 0x7f060261
 int color secondary_text_disabled_material_light 0x7f060262
 int color store_item_1 0x7f060263
 int color store_item_2 0x7f060264
-int color successColor 0x7f060265
 int color switch_thumb_disabled_material_dark 0x7f060266
 int color switch_thumb_disabled_material_light 0x7f060267
 int color switch_thumb_material_dark 0x7f060268
@@ -1900,7 +1896,6 @@ int color toast_warning 0x7f060270
 int color tooltip_background_dark 0x7f060271
 int color tooltip_background_light 0x7f060272
 int color translucent 0x7f060273
-int color warningColor 0x7f060274
 int color white 0x7f060275
 int color yellow_100 0x7f060276
 int dimen abc_action_bar_content_inset_material 0x7f070000
@@ -2639,13 +2634,8 @@ int drawable ic_baseline_verified_user_24 0x7f08009f
 int drawable ic_c 0x7f0800a0
 int drawable ic_c_green 0x7f0800a1
 int drawable ic_c_white 0x7f0800a2
-int drawable ic_check_white_24dp 0x7f0800a3
-int drawable ic_clear_white_24dp 0x7f0800a4
 int drawable ic_clock_black_24dp 0x7f0800a5
-int drawable ic_error_outline_white_24dp 0x7f0800a6
-int drawable ic_info_outline_white_24dp 0x7f0800a7
 int drawable ic_keyboard_black_24dp 0x7f0800a8
-int drawable ic_launcher_background 0x7f0800a9
 int drawable ic_launcher_foreground 0x7f0800aa
 int drawable ic_m3_chip_check 0x7f0800ab
 int drawable ic_m3_chip_checked_circle 0x7f0800ac
@@ -2655,6 +2645,7 @@ int drawable ic_mtrl_chip_checked_black 0x7f0800af
 int drawable ic_mtrl_chip_checked_circle 0x7f0800b0
 int drawable ic_mtrl_chip_close_circle 0x7f0800b1
 int drawable ic_phone_frame 0x7f0800b2
+int drawable ic_shopper_f_alt 0x7f080109
 int drawable ic_square_cash_app_logo 0x7f0800b3
 int drawable ic_venmo_svgrepo_com 0x7f0800b4
 int drawable logo 0x7f0800b5
@@ -2738,7 +2729,6 @@ int drawable selected_dot 0x7f080102
 int drawable tab_selector 0x7f080103
 int drawable test_level_drawable 0x7f080104
 int drawable thumb_up 0x7f080105
-int drawable toast_frame 0x7f080106
 int drawable tooltip_frame_dark 0x7f080107
 int drawable tooltip_frame_light 0x7f080108
 int font anton 0x7f090000
@@ -2974,6 +2964,7 @@ int id ignoreRequest 0x7f0a00e3
 int id image 0x7f0a00e4
 int id imageSlider 0x7f0a00e5
 int id imageView 0x7f0a00e6
+int id imageView2 0x7f0a020c
 int id immediateStop 0x7f0a00e7
 int id included 0x7f0a00e8
 int id indeterminate 0x7f0a00e9
@@ -3196,6 +3187,10 @@ int id textStart 0x7f0a01c1
 int id textTop 0x7f0a01c2
 int id textView 0x7f0a01c3
 int id textView10 0x7f0a01c4
+int id textView11 0x7f0a020f
+int id textView12 0x7f0a0210
+int id textView13 0x7f0a0211
+int id textView14 0x7f0a0212
 int id textView2 0x7f0a01c5
 int id textView20 0x7f0a01c6
 int id textView21 0x7f0a01c7
@@ -3204,6 +3199,9 @@ int id textView23 0x7f0a01c9
 int id textView3 0x7f0a01ca
 int id textView4 0x7f0a01cb
 int id textView5 0x7f0a01cc
+int id textView6 0x7f0a020a
+int id textView7 0x7f0a020b
+int id textView8 0x7f0a0213
 int id textView9 0x7f0a01cd
 int id text_input_end_icon 0x7f0a01ce
 int id text_input_error_icon 0x7f0a01cf
@@ -3219,9 +3217,6 @@ int id time 0x7f0a01d8
 int id title 0x7f0a01d9
 int id titleDividerNoCustom 0x7f0a01da
 int id title_template 0x7f0a01db
-int id toast_icon 0x7f0a01dc
-int id toast_root 0x7f0a01dd
-int id toast_text 0x7f0a01de
 int id toggle 0x7f0a01df
 int id top 0x7f0a01e0
 int id topPanel 0x7f0a01e1
@@ -3245,7 +3240,9 @@ int id vertical_only 0x7f0a01f2
 int id view 0x7f0a01f3
 int id view2 0x7f0a01f4
 int id view3 0x7f0a01f5
+int id view4 0x7f0a020d
 int id view5 0x7f0a01f6
+int id view6 0x7f0a020e
 int id view_offset_helper 0x7f0a01f7
 int id view_pager_card 0x7f0a01f8
 int id view_transition 0x7f0a01f9
@@ -3472,8 +3469,8 @@ int layout select_dialog_item_material 0x7f0d006d
 int layout select_dialog_multichoice_material 0x7f0d006e
 int layout select_dialog_singlechoice_material 0x7f0d006f
 int layout support_simple_spinner_dropdown_item 0x7f0d0070
-int layout toast_layout 0x7f0d0071
 int mipmap ic_launcher 0x7f0f0000
+int mipmap ic_launcher_foreground 0x7f0f0002
 int mipmap ic_launcher_round 0x7f0f0001
 int plurals mtrl_badge_content_description 0x7f100000
 int string abc_action_bar_home_description 0x7f110000
@@ -3524,7 +3521,9 @@ int string character_counter_pattern 0x7f11002c
 int string clear_text_end_icon_content_description 0x7f11002d
 int string contact_us 0x7f11002e
 int string email 0x7f11002f
-int string end_exp 0x7f110030
+int string end_exp1 0x7f1100fc
+int string end_exp2 0x7f1100fd
+int string end_exp3 0x7f1100fe
 int string end_the_end 0x7f110031
 int string error_a11y_label 0x7f110032
 int string error_icon_content_description 0x7f110033
@@ -3589,8 +3588,13 @@ int string meta 0x7f11006d
 int string meta_privacy 0x7f11006e
 int string meta_privacy_exp1 0x7f11006f
 int string meta_privacy_exp2 0x7f110070
+int string meta_privacy_exp3 0x7f1100ff
+int string meta_privacy_exp4 0x7f110100
+int string meta_privacy_exp5 0x7f110101
 int string meta_undetectable 0x7f110071
-int string meta_undetectable_exp 0x7f110072
+int string meta_undetectable_exp1 0x7f110102
+int string meta_undetectable_exp2 0x7f110103
+int string meta_undetectable_exp3 0x7f110104
 int string mtrl_badge_numberless_content_description 0x7f110073
 int string mtrl_checkbox_button_icon_path_checked 0x7f110074
 int string mtrl_checkbox_button_icon_path_group_name 0x7f110075
@@ -3725,7 +3729,6 @@ int string req_software 0x7f1100f5
 int string requirements 0x7f1100f6
 int string search_menu_title 0x7f1100f7
 int string status_bar_notification_info_overflow 0x7f1100f8
-int string toast_message 0x7f1100f9
 int string trial_price 0x7f1100fa
 int string what_is_it 0x7f1100fb
 int style AlertDialog_AppCompat 0x7f120000

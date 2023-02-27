@@ -1,31 +1,43 @@
 [
     {
-        "merged": "/home/dev/Documents/CaretOnBoarding/app/build/intermediates/merged_res/debug/drawable_ic_baseline_arrow_forward_ios_24.xml.flat",
-        "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/drawable/ic_baseline_arrow_forward_ios_24.xml"
-    },
-    {
         "merged": "/home/dev/Documents/CaretOnBoarding/app/build/intermediates/merged_res/debug/layout_card_what_is.xml.flat",
         "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/layout/card_what_is.xml"
+    },
+    {
+        "merged": "/home/dev/Documents/CaretOnBoarding/app/build/intermediates/merged_res/debug/drawable_ic_baseline_arrow_forward_ios_24.xml.flat",
+        "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/drawable/ic_baseline_arrow_forward_ios_24.xml"
     },
     {
         "merged": "/home/dev/Documents/CaretOnBoarding/app/build/intermediates/merged_res/debug/drawable_diag_round_white.xml.flat",
         "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/drawable/diag_round_white.xml"
     },
     {
-        "merged": "/home/dev/Documents/CaretOnBoarding/app/build/intermediates/merged_res/debug/drawable_ic_baseline_support_agent_24.xml.flat",
-        "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/drawable/ic_baseline_support_agent_24.xml"
+        "merged": "/home/dev/Documents/CaretOnBoarding/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "/home/dev/Documents/CaretOnBoarding/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "/home/dev/Documents/CaretOnBoarding/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/dev/Documents/CaretOnBoarding/app/build/intermediates/merged_res/debug/drawable_ic_baseline_support_agent_24.xml.flat",
+        "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/drawable/ic_baseline_support_agent_24.xml"
     },
     {
         "merged": "/home/dev/Documents/CaretOnBoarding/app/build/intermediates/merged_res/debug/drawable_sc_4.png.flat",
         "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/drawable/sc_4.png"
     },
     {
-        "merged": "/home/dev/Documents/CaretOnBoarding/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "/home/dev/Documents/CaretOnBoarding/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/home/dev/Documents/CaretOnBoarding/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/dev/Documents/CaretOnBoarding/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
         "merged": "/home/dev/Documents/CaretOnBoarding/app/build/intermediates/merged_res/debug/drawable_ic_baseline_android_24.xml.flat",
@@ -40,10 +52,6 @@
         "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/drawable/sc_1.png"
     },
     {
-        "merged": "/home/dev/Documents/CaretOnBoarding/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp"
-    },
-    {
         "merged": "/home/dev/Documents/CaretOnBoarding/app/build/intermediates/merged_res/debug/drawable_ic_baseline_image_24.xml.flat",
         "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/drawable/ic_baseline_image_24.xml"
     },
@@ -56,24 +64,16 @@
         "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/drawable/sc_3.png"
     },
     {
+        "merged": "/home/dev/Documents/CaretOnBoarding/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
         "merged": "/home/dev/Documents/CaretOnBoarding/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "/home/dev/Documents/CaretOnBoarding/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp"
-    },
-    {
         "merged": "/home/dev/Documents/CaretOnBoarding/app/build/intermediates/merged_res/debug/drawable_ic_square_cash_app_logo.xml.flat",
         "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/drawable/ic_square_cash_app_logo.xml"
-    },
-    {
-        "merged": "/home/dev/Documents/CaretOnBoarding/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/mipmap-mdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "/home/dev/Documents/CaretOnBoarding/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/mipmap-hdpi/ic_launcher.webp"
     },
     {
         "merged": "/home/dev/Documents/CaretOnBoarding/app/build/intermediates/merged_res/debug/drawable_ic_c_green.xml.flat",
@@ -92,10 +92,6 @@
         "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/drawable/ic_c_white.xml"
     },
     {
-        "merged": "/home/dev/Documents/CaretOnBoarding/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp"
-    },
-    {
         "merged": "/home/dev/Documents/CaretOnBoarding/app/build/intermediates/merged_res/debug/layout_card_previews.xml.flat",
         "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/layout/card_previews.xml"
     },
@@ -104,12 +100,24 @@
         "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/drawable/ic_baseline_arrow_back_ios_24.xml"
     },
     {
+        "merged": "/home/dev/Documents/CaretOnBoarding/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/dev/Documents/CaretOnBoarding/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
         "merged": "/home/dev/Documents/CaretOnBoarding/app/build/intermediates/merged_res/debug/layout_card_splash.xml.flat",
         "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/layout/card_splash.xml"
     },
     {
         "merged": "/home/dev/Documents/CaretOnBoarding/app/build/intermediates/merged_res/debug/drawable_ic_venmo_svgrepo_com.xml.flat",
         "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/drawable/ic_venmo_svgrepo_com.xml"
+    },
+    {
+        "merged": "/home/dev/Documents/CaretOnBoarding/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
         "merged": "/home/dev/Documents/CaretOnBoarding/app/build/intermediates/merged_res/debug/font_anton.xml.flat",
@@ -132,28 +140,24 @@
         "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/drawable/default_dot.xml"
     },
     {
+        "merged": "/home/dev/Documents/CaretOnBoarding/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
         "merged": "/home/dev/Documents/CaretOnBoarding/app/build/intermediates/merged_res/debug/drawable_ic_baseline_verified_user_24.xml.flat",
         "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/drawable/ic_baseline_verified_user_24.xml"
     },
     {
-        "merged": "/home/dev/Documents/CaretOnBoarding/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "/home/dev/Documents/CaretOnBoarding/app/build/intermediates/merged_res/debug/drawable_ic_baseline_currency.xml.flat",
+        "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/drawable/ic_baseline_currency.xml"
     },
     {
         "merged": "/home/dev/Documents/CaretOnBoarding/app/build/intermediates/merged_res/debug/layout_activity_main.xml.flat",
         "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/layout/activity_main.xml"
     },
     {
-        "merged": "/home/dev/Documents/CaretOnBoarding/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/mipmap-xhdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "/home/dev/Documents/CaretOnBoarding/app/build/intermediates/merged_res/debug/drawable_ic_launcher_background.xml.flat",
-        "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/drawable/ic_launcher_background.xml"
-    },
-    {
-        "merged": "/home/dev/Documents/CaretOnBoarding/app/build/intermediates/merged_res/debug/drawable_ic_baseline_currency.xml.flat",
-        "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/drawable/ic_baseline_currency.xml"
+        "merged": "/home/dev/Documents/CaretOnBoarding/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
     },
     {
         "merged": "/home/dev/Documents/CaretOnBoarding/app/build/intermediates/merged_res/debug/drawable_ic_baseline_mobile_screen_share_24.xml.flat",
@@ -164,12 +168,16 @@
         "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/layout/card_end.xml"
     },
     {
-        "merged": "/home/dev/Documents/CaretOnBoarding/app/build/intermediates/merged_res/debug/drawable_sc_6.png.flat",
-        "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/drawable/sc_6.png"
+        "merged": "/home/dev/Documents/CaretOnBoarding/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },
     {
         "merged": "/home/dev/Documents/CaretOnBoarding/app/build/intermediates/merged_res/debug/drawable_ic_baseline_hide_source_24.xml.flat",
         "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/drawable/ic_baseline_hide_source_24.xml"
+    },
+    {
+        "merged": "/home/dev/Documents/CaretOnBoarding/app/build/intermediates/merged_res/debug/drawable_sc_6.png.flat",
+        "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/drawable/sc_6.png"
     },
     {
         "merged": "/home/dev/Documents/CaretOnBoarding/app/build/intermediates/merged_res/debug/drawable-v24_ic_launcher_foreground.xml.flat",
@@ -180,12 +188,12 @@
         "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/drawable/ic_baseline_supervised_user_circle_24.xml"
     },
     {
-        "merged": "/home/dev/Documents/CaretOnBoarding/app/build/intermediates/merged_res/debug/drawable_selected_dot.xml.flat",
-        "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/drawable/selected_dot.xml"
-    },
-    {
         "merged": "/home/dev/Documents/CaretOnBoarding/app/build/intermediates/merged_res/debug/drawable_ic_phone_frame.xml.flat",
         "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/drawable/ic_phone_frame.xml"
+    },
+    {
+        "merged": "/home/dev/Documents/CaretOnBoarding/app/build/intermediates/merged_res/debug/drawable_selected_dot.xml.flat",
+        "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/drawable/selected_dot.xml"
     },
     {
         "merged": "/home/dev/Documents/CaretOnBoarding/app/build/intermediates/merged_res/debug/drawable_ic_baseline_help_24.xml.flat",
@@ -212,10 +220,6 @@
         "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/drawable/ic_baseline_attach_file_24.xml"
     },
     {
-        "merged": "/home/dev/Documents/CaretOnBoarding/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp"
-    },
-    {
         "merged": "/home/dev/Documents/CaretOnBoarding/app/build/intermediates/merged_res/debug/drawable_ic_baseline_content_copy_24.xml.flat",
         "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/drawable/ic_baseline_content_copy_24.xml"
     },
@@ -228,8 +232,8 @@
         "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/drawable/ic_baseline_browser_updated_24.xml"
     },
     {
-        "merged": "/home/dev/Documents/CaretOnBoarding/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "/home/dev/Documents/CaretOnBoarding/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
         "merged": "/home/dev/Documents/CaretOnBoarding/app/build/intermediates/merged_res/debug/layout_card_meta.xml.flat",
@@ -240,23 +244,39 @@
         "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/drawable/albert_einstein.png"
     },
     {
+        "merged": "/home/dev/Documents/CaretOnBoarding/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
         "merged": "/home/dev/Documents/CaretOnBoarding/app/build/intermediates/merged_res/debug/drawable_ic_c.xml.flat",
         "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/drawable/ic_c.xml"
     },
     {
-        "merged": "/home/dev/Documents/CaretOnBoarding/app/build/intermediates/merged_res/debug/drawable_tab_selector.xml.flat",
-        "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/drawable/tab_selector.xml"
+        "merged": "/home/dev/Documents/CaretOnBoarding/app/build/intermediates/merged_res/debug/drawable_ic_shopper_f_alt.jpeg.flat",
+        "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/drawable/ic_shopper_f_alt.jpeg"
     },
     {
         "merged": "/home/dev/Documents/CaretOnBoarding/app/build/intermediates/merged_res/debug/drawable_cash_how_to.png.flat",
         "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/drawable/cash_how_to.png"
     },
     {
+        "merged": "/home/dev/Documents/CaretOnBoarding/app/build/intermediates/merged_res/debug/drawable_tab_selector.xml.flat",
+        "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/drawable/tab_selector.xml"
+    },
+    {
         "merged": "/home/dev/Documents/CaretOnBoarding/app/build/intermediates/merged_res/debug/drawable_logo.xml.flat",
         "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/drawable/logo.xml"
     },
     {
+        "merged": "/home/dev/Documents/CaretOnBoarding/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
         "merged": "/home/dev/Documents/CaretOnBoarding/app/build/intermediates/merged_res/debug/drawable_rounded_rect.xml.flat",
         "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/drawable/rounded_rect.xml"
+    },
+    {
+        "merged": "/home/dev/Documents/CaretOnBoarding/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/home/dev/Documents/CaretOnBoarding/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
     }
 ]

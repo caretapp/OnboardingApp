@@ -23,6 +23,7 @@
     <color name="badge_item_2">#00D656</color>
     <color name="black">#FF000000</color>
     <color name="dark_grey">#333333</color>
+    <color name="ic_launcher_background">#FDFDFD</color>
     <color name="instaGreen">#43b02a</color>
     <color name="instaOrange">#ff8200</color>
     <color name="optional">#33BA84</color>
@@ -49,10 +50,12 @@
     <string name="app_version_req7">Do not fret! We will walk you through it step-by-step. There are not many steps!</string>
     <string name="contact_us">Contact Us</string>
     <string name="email">app.caret@gmail.com</string>
-    <string name="end_exp">Thank you all for your interest &amp; support with Caret!\n\nFeel free to scroll back and uninstall this app! It is not required to have for Caret.\n\nIf you have any questions, please reach out to us via email.\n\nDrive safe.</string>
+    <string name="end_exp1">Are you ready to become a more productive shopper?</string>
+    <string name="end_exp2">Feel free to scroll back. Please uninstall this app when you are finished! It is not required and is detectable by other apps.\n\nIf you have any questions, please reach out to us via email.</string>
+    <string name="end_exp3">Drive safe!</string>
     <string name="end_the_end">Let\'s GO!</string>
-    <string name="exp_of_app1">aret is a unique batch grabber for Instacart. We know what you\'re thinking… and that is a…</string>
-    <string name="exp_of_app2">Blind assumption of those who don\'t merely know the rules of the game. 😂</string>
+    <string name="exp_of_app1">aret is a unique batch grabber for Instacart. We know what you\'re thinking… that is a…</string>
+    <string name="exp_of_app2">Blind assumption of those who don\'t merely know the rules of the game. 🤡</string>
     <string name="exp_of_app3">Yes! By using automation, Caret will persistently scour for batches that align to a shopper\'s preferences faster than humanly possible.</string>
     <string name="exp_of_app4">Indeed, Caret does offer an amazing amount criteria to customize and filter batches. As well as features like bring Instacart to the screen, alerts, a batch log, and so much more.</string>
     <string name="exp_of_app5">But Caret - is NOT:</string>
@@ -73,10 +76,15 @@
     <string name="intro_1_4">The price of the full app is $20. If you are a trial user, you can upgrade for an additional $10.</string>
     <string name="meta">Caret Meta</string>
     <string name="meta_privacy">Your business is not our business!</string>
-    <string name="meta_privacy_exp1">Caret is not freeware, one with ads, micro-transactions, or other gimmicks. Instead, Caret respects the data &amp; privacy of it\'s customers. Caret does require users to authenticate which uses the internet. After that, no network calls are made.</string>
-    <string name="meta_privacy_exp2">Don\'t take our word for it. Feel free to test this yourself before using Caret with Instacart! Just open the App Info > Mobile &amp; Wifi Usage. Caret uses mere kilobytes of data only at times of starting the app. Other \"free\" apps send megabytes of data frequently.</string>
+    <string name="meta_privacy_exp1">Caret is not freeware, one with ads, micro-transactions, or other gimmicks. A one-time purchase of the full release is for the lifetime of the device.</string>
+    <string name="meta_privacy_exp2">Caret respects the data &amp; privacy of it\'s customers. Caret does require users to authenticate which uses the internet. After that, no network calls are made.</string>
+    <string name="meta_privacy_exp3">Don\'t take our word for it. Feel free to test this yourself before using Caret with Instacart!</string>
+    <string name="meta_privacy_exp4">App Info > Mobile &amp; Wifi Usage.</string>
+    <string name="meta_privacy_exp5">Caret uses mere kilobytes of data only at times of starting the app. Other \"free\" apps send megabytes of data frequently.</string>
     <string name="meta_undetectable">Caret is discrete</string>
-    <string name="meta_undetectable_exp">Rest assured no one else will know you use Caret! Because every single APK of Caret is customized at a low-level; making it indistinguishable. \"IAMs\" are what Android apps use to discover signatures of other apps. Where Caret does not have any constant signatures. Additionally, Caret does not make any network requests with Instacart and it\'s actions are randomized. As far as detection, Caret would be considered a text editor to other apps.</string>
+    <string name="meta_undetectable_exp1">Rest assured no one else will know you use Caret!</string>
+    <string name="meta_undetectable_exp2">Every single APK of Caret is customized at a low-level; making it indistinguishable. \"IAMs\" are what Android apps use to discover signatures of other apps. Where Caret does not have any constant signatures.</string>
+    <string name="meta_undetectable_exp3">Caret does not make any network requests with Instacart and it\'s actions are randomized. As far as detection, Caret would be considered a text editor to other apps.</string>
     <string name="preview">Previews</string>
     <string name="preview_swipe_exp">Swipe the images to scroll &amp; the green area to continue.</string>
     <string name="purchase_cashapp">$caretapp</string>
@@ -151,16 +159,16 @@
     <string name="trial_price">$10</string>
     <string name="what_is_it">What is Caret?</string>
     <style name="Theme.AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
-        <!-- Primary brand color. -->
+        
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
         <item name="colorOnPrimary">@color/black</item>
-        <!-- Secondary brand color. -->
+        
         <item name="colorSecondary">@color/teal_200</item>
         <item name="colorSecondaryVariant">@color/teal_700</item>
         <item name="colorOnSecondary">@color/black</item>
-        <!-- Status bar color. -->
+        
         <item name="android:statusBarColor" ns1:targetApi="l">@color/instaGreen</item>
-        <!-- Customize your theme here. -->
+        
     </style>
 </resources>

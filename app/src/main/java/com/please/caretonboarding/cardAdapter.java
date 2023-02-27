@@ -14,6 +14,7 @@ import android.provider.Settings;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.widget.AppCompatImageView;
@@ -87,6 +88,7 @@ public class cardAdapter extends PagerAdapter {
 						ClipboardManager clipboard = (ClipboardManager) context.getSystemService(Context.CLIPBOARD_SERVICE);
 						ClipData clip = ClipData.newPlainText("id", keyText.getText().toString());
 						clipboard.setPrimaryClip(clip);
+						Toast.makeText( context, "Key copied to clipboard!", Toast.LENGTH_SHORT ).show();
 					}
 				});
 				View venmoButton = viewList[position].findViewById(R.id.venmo_view);
