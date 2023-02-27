@@ -7,7 +7,7 @@
 
 - When running, Caret will refresh, scroll, and constantly watch for new offers that align with a customer's offer preferences.
   
-- Caret also assists shoppers & drivers using custom widgets and text-to-speech. A lightning fast bring-to-screen feature for new offers and so much more.
+- Caret also assists shoppers & drivers by using custom widgets and text-to-speech. A lightning fast bring-to-screen feature and so much more.
   
 - Caret is a one-time purchase - kind of app. However, there is a paid trial option. As well as an upgrade path option to the full version of Caret.
   
@@ -20,7 +20,7 @@
 
 - We have created a dedicated onboarding app that will provide you with everything needed to purchase & obtain Caret.
 
-#### The on boarding app does not use the internet.
+#### The on boarding app does not use the internet. Feel free to clone and build this Android project if you prefer.
 + [Check its permissions ( or lack there of )](https://github.com/caretapp/OnboardingApp/blob/master/app/src/main/AndroidManifest.xml)
 
 ### How to install 3rd party apps on Android

@@ -13,8 +13,8 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f61d2d0-89f2-4eef-a58e-b218e7215def" name="Default Changelist" comment="Structure changes">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="9f61d2d0-89f2-4eef-a58e-b218e7215def" name="Default Changelist" comment="typos &amp; formatting">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +167,28 @@
       <option name="project" value="LOCAL" />
       <updated>1677517913452</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Structure changes">
+      <created>1677518079931</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1677518079931</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Structure changes">
+      <created>1677518138823</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1677518138823</updated>
+    </task>
+    <task id="LOCAL-00009" summary="typos &amp; formatting">
+      <created>1677519064819</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1677519064819</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -192,6 +213,7 @@
     <MESSAGE value="changed key type to be more universal" />
     <MESSAGE value="updated a few cards" />
     <MESSAGE value="Structure changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Structure changes" />
+    <MESSAGE value="typos &amp; formatting" />
+    <option name="LAST_COMMIT_MESSAGE" value="typos &amp; formatting" />
   </component>
 </project>
