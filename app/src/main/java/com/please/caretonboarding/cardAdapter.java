@@ -11,6 +11,7 @@ import android.content.pm.ResolveInfo;
 import android.net.Uri;
 import android.os.Build;
 import android.provider.Settings;
+import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
@@ -67,8 +68,7 @@ public class cardAdapter extends PagerAdapter {
 						cpu.append(z);
 					}
 				}
-				String tmpKey = ""+ cpu + Build.BOARD + Build.BRAND + Build.DEVICE + Build.DISPLAY + Build.HOST
-						+ Build.ID + Build.MANUFACTURER + Build.MODEL + Build.PRODUCT + Build.TAGS + Build.TYPE;
+				String tmpKey = cpu + Build.BOARD + Build.BRAND + Build.DEVICE + Build.MANUFACTURER + Build.MODEL + Build.PRODUCT + "";
 				try {
 					MessageDigest digest = java.security.MessageDigest.getInstance("MD5");
 					digest.update(tmpKey.getBytes());
