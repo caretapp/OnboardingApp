@@ -177,33 +177,36 @@ public class cardAdapter extends PagerAdapter {
 					}
 				});
 				View cashAppButton = viewList[position].findViewById(R.id.cash_app_view);
-				cashAppButton.setOnClickListener(v -> emailCaret( R.string.email_contact,  String.format(Locale.getDefault(), "Key: %s", key)));
+				cashAppButton.setOnClickListener(v -> {
+					try {
+						//app intent
+						Intent i = new Intent(Intent.ACTION_VIEW);
+						i.setData(Uri.parse(context.getResources().getString(R.string.purchase_cashapp_url)));
+						i.setComponent(new ComponentName("com.squareup.cash", "com.squareup.cash.ui.MainActivity"));
+						i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+						context.startActivity(i);
+					} catch ( Exception e ) {
+						try {
+							//browser intent
+							Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("http://example.com"));
+							ResolveInfo resolveInfo = context.getPackageManager().resolveActivity(i, PackageManager.MATCH_DEFAULT_ONLY);
+							String packageName = resolveInfo.activityInfo.packageName;
+							//create browser intent with our url
+							i = new Intent(Intent.ACTION_VIEW, Uri.parse(context.getResources().getString(R.string.purchase_cashapp_url)));
+							i.setPackage( packageName );
+							context.startActivity(i);
+						} catch ( Exception f ){
+							Toast.makeText(context, "No app found! Please do so manually.", Toast.LENGTH_LONG).show();
+							f.printStackTrace();
+						}
+					}
+				});
 				View contactUsButton1 = viewList[position].findViewById(R.id.contact_us_purchase);
 				contactUsButton1.setOnClickListener(v -> emailCaret( R.string.email_purchase,  String.format(Locale.getDefault(), "Key: %s", key)));
 				break;
 			case 8:
 				View contactUsButton2 = viewList[position].findViewById(R.id.contact_us_purchase);
-				contactUsButton2.setOnClickListener(v -> {
-					Intent intent = new Intent(Intent.ACTION_SENDTO).setData(Uri.parse("mailto:"));
-					intent.putExtra(Intent.EXTRA_EMAIL, new String[]{context.getResources().getString(R.string.email)});
-					intent.putExtra(Intent.EXTRA_SUBJECT, context.getResources().getString(R.string.email_contact));
-					intent.putExtra(Intent.EXTRA_TEXT, String.format(Locale.getDefault(), "Key: %s", key));
-					if (intent.resolveActivity(context.getPackageManager()) != null) {
-						context.startActivity(intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
-					} else {
-						try {
-							Intent emailIntent = new Intent(Intent.ACTION_SEND);
-							emailIntent.setType("message/rfc822");
-							emailIntent.putExtra(Intent.EXTRA_EMAIL, new String[]{context.getResources().getString(R.string.email)});
-							emailIntent.putExtra(Intent.EXTRA_SUBJECT, context.getResources().getString(R.string.email_contact));
-							emailIntent.putExtra(Intent.EXTRA_TEXT, String.format(Locale.getDefault(), "Key: %s", key));
-							context.startActivity(Intent.createChooser(emailIntent, "Send Email to Caret").addFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
-						} catch (Exception e) {
-							Toast.makeText(context, "No app found to email!", Toast.LENGTH_LONG).show();
-							e.printStackTrace();
-						}
-					}
-				});
+				contactUsButton2.setOnClickListener(v -> emailCaret( R.string.email_contact,  String.format(Locale.getDefault(), "Key: %s", key)));
 				AppCompatImageView debug = viewList[position].findViewById(R.id.debug_);
 				debug.setOnLongClickListener(view -> {
 					StringBuilder d = new StringBuilder();

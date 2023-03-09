@@ -90,6 +90,7 @@
 
 
     <string name="purchase_venmo_url">https://www.venmo.com/u/caretapp</string>
+    <string name="purchase_cashapp_url">https://cash.app/$caretapp?qr=1</string>
 
     <string name="purchase_how_to_methods_accept">Payment:</string>
     <string name="purchase_how_to_methods1">Venmo</string>
