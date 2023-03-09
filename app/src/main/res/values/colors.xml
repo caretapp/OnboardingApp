@@ -13,13 +13,5 @@
     <color name="translucent">#00FFFFFF</color>
     <color name="required">#DC2A68</color>
     <color name="optional">#33BA84</color>
-    <color name="toast_success">#00DF91</color>
-    <color name="toast_warning">#ED6700</color>
-    <color name="toast_error">#ED004B</color>
-    <color name="store_item_1">#FFAA00</color>
-    <color name="store_item_2">#E39700</color>
     <color name="badge_item_1">#00FF66</color>
-    <color name="badge_item_2">#00D656</color>
-    <color name="yellow_100">#FFEA5C</color>
-    <color name="dark_grey">#333333</color>
 </resources>

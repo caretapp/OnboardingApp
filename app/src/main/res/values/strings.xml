@@ -5,15 +5,15 @@
 
     <string name="game_exp">\“You have to learn the rules of the game. And then you have to play better than anyone else.\”\n– Albert Einstein</string>
 
+    <string name="email_contact">contact question (do not change this please)</string>
+    <string name="email_purchase">purchase question (do not change this please)</string>
+
     <string name="what_is_it">What is Caret?</string>
     <string name="getting_started">Lets Get Started!</string>
     <string name="getting_started_exp">Are you tired of missing out on batches and having them instantly disappear from the screen? Would you like to drive more safely while on the road? Swipe to learn about how Caret can help you flourish with Instacart!</string>
     <string name="getting_started_exp1">Swipe &amp; Scroll</string>
-    <string name="getting_started_exp2">\"No one has ever won a game of chess by only taking forward moves. Sometimes you have to move backwards to take better steps forward. That\’s life.\"</string>
-    <string name="how_this_works">How This Works:</string>
 
 
-    <string name="exp_of_appC">C</string>
     <string name="exp_of_app1">aret is a unique batch grabber for Instacart. We know what you\'re thinking… that is a…</string>
     <string name="exp_of_app2">Blind assumption of those who don\'t merely know the rules of the game. 🤡</string>
     <string name="exp_of_app3">Yes! By using automation, Caret will persistently scour for batches that align to a shopper\'s preferences faster than humanly possible.</string>
@@ -25,19 +25,15 @@
     <string name="exp_of_app9">(As explained in the next pages)</string>
     <string name="exp_of_play">\"They want to see you do good. But never better than them.\"</string>
 
+    <string name="or">or</string>
     <string name="meta">Caret Meta</string>
     <string name="meta_undetectable">Caret is discrete</string>
-    <string name="meta_undetectable_exp1">Rest assured no one else will know you use Caret!</string>
     <string name="meta_undetectable_exp2">Every single APK of Caret is customized at a low-level; making it indistinguishable. \"IAMs\" are what Android apps use to discover signatures of other apps. Where Caret does not have any constant signatures.</string>
-    <string name="meta_undetectable_exp3">Caret does not make any network requests with Instacart and it\'s actions are randomized. As far as detection, Caret would be considered a text editor to other apps.</string>
+    <string name="meta_undetectable_exp3">Caret does not make any network requests with Instacart and it\'s actions are randomized.</string>
     <string name="meta_privacy">Your business is not our business!</string>
     <string name="meta_privacy_exp1">Caret is not freeware, one with ads, micro-transactions, or other gimmicks. A one-time purchase of the full release is for the lifetime of the device.</string>
-    <string name="meta_privacy_exp2">Caret respects the data &amp; privacy of it\'s customers. Caret does require users to authenticate which uses the internet. After that, no network calls are made.</string>
-    <string name="meta_privacy_exp3">Don\'t take our word for it. Feel free to test this yourself before using Caret with Instacart!</string>
-    <string name="meta_privacy_exp4">App Info > Mobile &amp; Wifi Usage.</string>
-    <string name="meta_privacy_exp5">Caret uses mere kilobytes of data only at times of starting the app. Other \"free\" apps send megabytes of data frequently.</string>
-    <string name="intro_1_3">Trial. The price of a week trial is $10 to test the waters.</string>
-    <string name="intro_1_4">The price of the full app is $20. If you are a trial user, you can upgrade for an additional $10.</string>
+    <string name="meta_privacy_exp2">Caret respects the data &amp; privacy of it\'s customers. Caret does require users to authenticate which uses the internet. After that, no network calls are made. Caret doesn\'t even report app crashes.</string>
+    <string name="meta_privacy_exp4">Test it yourself: App Info > Mobile &amp; Wifi Usage.</string>
 
     <string name="preview">Previews</string>
     <string name="preview_swipe_exp">Swipe the images to scroll &amp; the green area to continue.</string>
@@ -45,12 +41,11 @@
     <string name="requirements">Requirements</string>
     <string name="req_hardware">Hardware:</string>
     <string name="req_software">Software &amp; Info:</string>
-    <string name="app_version_req2">Caret works on all Android phones versions 8 (Oreo) through Android 12.</string>
+    <string name="app_version_req2">Caret works on all Android phones versions 8 (Oreo) through Android 13.</string>
     <string name="app_version_req3">• An internet connection.</string>
-    <string name="app_version_req4">When you purchase a trial or the full version Caret, regardless of payment service, it is required to include your key &amp; and email.</string>
     <string name="app_version_req5">• A key.</string>
     <string name="app_version_req6">• An email.</string>
-    <string name="app_version_req7">Do not fret! We will walk you through it step-by-step. There are not many steps!</string>
+    <string name="req_your_version">Your Version:</string>
 
     <string name="quick_start">How-To: Install</string>
     <string name="quick_start_install">Installation:</string>
@@ -77,25 +72,9 @@
     <string name="quick_start_exp_global_exp5">• Using the enabled app, tap the APK file you download and select install.</string>
     <string name="quick_start_wrap_up1">You would enable access - for whichever app - to install 3rd party apps. That app can be a browser or file manager. Then using that app to install the APK file you\'ve downloaded. You can revert that access after installing Caret.</string>
 
-    <string name="quick_start_caret">How-To use the Caret app</string>
-    <string name="quick_start_caret_setup_permissions">Caret requires certain permissions to work it\'s magic.</string>
-    <string name="quick_start_caret_perm_acc">Accessibility</string>
-    <string name="quick_start_caret_perm_acc_exp">Enabling Android\'s Accessibility service allows Caret to read the elements of the screen. Caret only reads the home and batch screens of Instacart.</string>
-    <string name="quick_start_caret_perm_draw_over_exp">Enabling Android\'s Draw Over permissions allows Caret to show widgets etc. on top of other apps.</string>
-    <string name="quick_start_caret_perm_notif">Notifications</string>
-    <string name="quick_start_caret_perm_notif_exp">Enabling Android\'s Notification service allows Caret to detect new batches and bring Instacart to the screen. This is an optional service.</string>
-    <string name="quick_start_caret_setup_done">Setup done!</string>
-
-    <string name="quick_start_caret_use_title">How to use Caret</string>
-    <string name="quick_start_caret_use_exp1">In the top portion of the screen, there are categories for configurable options. Tapping a category will expand, showing all the options available.</string>
-    <string name="quick_start_caret_use_exp2">After configuring</string>
-    <string name="quick_start_caret_use_exp3">To activate Caret\'s automation, long press and drag the carrot to the butt. You should see a few notifications about services running.</string>
-    <string name="quick_start_caret_use_exp4">Open Instacart, but this is not the end just yet! Caret does not consider offers from stores you do not shop for. As Caret runs, it will record the stores available to you. You must return and enable the store you entertain offers from in the \"Available stores\" category.</string>
-    <string name="quick_start_caret_use_exp5">Please keep in mind, maximum mileage only applies to the distance between the store and customer! Happy Careting.</string>
-
     <string name="purchase_how_to">How to: Purchase</string>
 
-    <string name="purchase_intro_1">Caret is a paid app, per device, per installation. There are three ways of purchasing Caret:</string>
+    <string name="purchase_intro_1">There are three ways of purchasing Caret:</string>
     <string name="purchase_trial">Trial</string>
     <string name="purchase_trial_exp">A week trial of the full app - at half price - to test the waters. The trial has a cost because, how Caret works, requires manual work from us to offer it.</string>
     <string name="purchase_plus">Trial + Trial = Full</string>
@@ -111,21 +90,20 @@
 
 
     <string name="purchase_venmo_url">https://www.venmo.com/u/caretapp</string>
-    <string name="purchase_venmo">\@caretapp</string>
-    <string name="purchase_cashapp_url">https://cash.app/$caretapp?qr=1</string>
-    <string name="purchase_cashapp">$caretapp</string>
 
     <string name="purchase_how_to_methods_accept">Payment:</string>
     <string name="purchase_how_to_methods1">Venmo</string>
     <string name="purchase_how_to_methods2">Cash App</string>
-    <string name="purchase_how_to_methods_key">First! Your Key:</string>
-    <string name="purchase_how_to_methods_copy_key">(Copy key to clipboard)</string>
+    <string name="purchase_how_to_methods_key">Your Key:</string>
+    <string name="purchase_how_to_methods_copy_key">Copy:</string>
     <string name="purchase_how_to_methods_include1">Important!</string>
-    <string name="purchase_how_to_methods_include2">Include both your key &amp; email in the comments of your purchase. Otherwise, we will consider it a donation.</string>
+    <string name="purchase_how_to_methods_include2">Please include your email in the comments of your purchase. Otherwise, you\'ll be refunded. No worries! You may try again.</string>
+    <string name="purchase_how_to_methods_include3">The comment section has a max length of about 50 characters. Too short for an email and key. After your purchase, you\'ll be asked for the key via email. Click copy to make that easier. 👍</string>
     <string name="purchase_how_to_accept">We Accept:</string>
     <string name="purchase_how_to_user1">$caretapp</string>
     <string name="purchase_how_to_user2">\@caretapp</string>
-    <string name="purchase_how_to_tap">Tap either option or do so manually.</string>
+    <string name="purchase_how_to_tap">Tap either option or do so manually</string>
+    <string name="purchase_how_to_key">The key to be replied via email</string>
 
     <string name="contact_us">Contact Us</string>
     <string name="email">app.caret@gmail.com</string>

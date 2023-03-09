@@ -38,6 +38,7 @@
                 android:textStyle="bold" />
 
             <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/debug_"
                 android:layout_width="64dp"
                 android:layout_height="64dp"
                 android:padding="8dp"
